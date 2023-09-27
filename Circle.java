@@ -46,7 +46,7 @@ public class Circle extends JPanel {
         int centerY = y + 25; // Y coordinate of the center of the circle
         int radius = 25; // Radius of the circle
 
-        // Use the Pythagorean theorem to check if cursor is inside the circle
+        // Check if cursor is inside the circle
         int mx = mouseX - centerX;
         int my = mouseY - centerY;
         return (mx * mx + my * my) <= (radius * radius);
